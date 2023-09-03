@@ -16,6 +16,12 @@
   "author": "Renato Mayoral",
   "license": "ISC",
   "devDependencies": {
-    "nx": "16.7.4"
+    "@types/node": "20.5.7",
+    "nx": "16.7.4",
+    "prisma": "^5.2.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "prisma-import": "^1.0.4"
   }
 }
